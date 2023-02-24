@@ -1,0 +1,41 @@
+{
+  "name": "ajs-hw_ex_im",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server src",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "build": "webpack --mode production",
+    "show:coverage": "live-server coverage/lcov-report",
+    "preshow:dist": "npm run build",
+    "show:dist": "live-server dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnutaSt/ajs-HW_EX_IM.git"
+  },
+  "author": "AnnSt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnutaSt/ajs-HW_EX_IM/issues"
+  },
+  "homepage": "https://github.com/AnutaSt/ajs-HW_EX_IM#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.0",
+    "@babel/preset-env": "^7.20.2",
+    "babel-loader": "^9.1.2",
+    "eslint": "^8.34.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "http-server": "^14.1.1",
+    "live-server": "^1.2.2",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  },
+  "dependencies": {
+    "core-js": "^3.28.0"
+  }
+}
